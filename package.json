@@ -1,0 +1,27 @@
+{
+  "name": "meetup_backend",
+  "version": "1.0.0",
+  "description": "server for meetup",
+  "main": "index.js",
+  "author": "dilipCoder",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "bcrypt": "^3.0.6",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.9",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.7"
+  },
+  "devDependencies": {
+    "eslint-config-equimper": "^2.2.2"
+  }
+}
